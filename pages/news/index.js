@@ -1,14 +1,15 @@
 // your domain.com/news
+import Link from 'next/link';
 
 const NewsPage = () => {
     return <>
         <p>The news page</p>
         <ul>
             <li>
-                <a href="/news/nextjs-artical">Next.js-artical</a>
+                <Link href="/news/nextjs-artical">Next.js-artical</Link>
             </li>
             <li>
-                <a href="/news/reactjs-artical">React.js-artical</a>
+                <Link href="/news/reactjs-artical">React.js-artical</Link>
             </li>
         </ul>
     </>
